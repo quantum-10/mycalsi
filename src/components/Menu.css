@@ -1,0 +1,85 @@
+
+  .menu {
+    position: absolute;
+    backdrop-filter: blur(25px) saturate(0%);
+    -webkit-backdrop-filter: blur(25px) saturate(0%);
+    background-color: rgb(43, 41, 41);
+    left: 0;
+    /* top: 70px; */
+    height: 580px;
+    top: 0px;
+    bottom: 0px;
+    left:0px;
+    padding-top:    15px; 
+    padding-bottom: 15px;
+    padding-left:  10px;
+    padding-right: 10px;
+    overflow-y: auto;
+    max-height: 579px;
+    z-index: 9999;
+    border-top-left-radius:    1em;
+    border-bottom-left-radius:0.71em;
+    border-right: 1px solid white;
+  }
+  .menu::-webkit-scrollbar {
+    display: none;
+} 
+  @keyframes zoom-in {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+  }
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.1, 1.1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  .animate-zoom-in {
+    animation: zoom-in 0.4s ease-out;
+  }
+  .animate-zoom-in :hover{
+   color: gold;
+   animation: zoom-in-zoom-out 0.4s ease-out;
+  }
+  .animate-zoom-in a :hover{
+   color: gold;
+   animation: none;
+  }
+  .icon-rotate {
+    transition: transform 0.3s ease-in-out;
+  }
+  .icon-rotate.active {
+    transform: rotate(180deg);
+  }
+  
+
+  
+  .history{
+    position: absolute;
+    backdrop-filter: blur(25px) saturate(0%);
+    -webkit-backdrop-filter: blur(25px) saturate(0%);
+    background-color: rgb(43, 41, 41);
+    height: 500px;
+    top:   60px;
+    left:  16px;
+    right: 16px;    
+    padding-top:    15px; 
+    padding-left:  10px;
+    padding-right: 10px;
+    overflow-y: auto;
+    max-height: 500px;
+    z-index: 9999;
+    border-radius:1em;
+    border: 1px solid white;
+  }
