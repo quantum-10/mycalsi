@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mycalsi/static/css/main.f4c123f1.css",
+    "main.js": "/mycalsi/static/js/main.997d11cf.js",
+    "static/js/787.ada38732.chunk.js": "/mycalsi/static/js/787.ada38732.chunk.js",
+    "static/media/fa-solid-900.ttf": "/mycalsi/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/mycalsi/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/mycalsi/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/mycalsi/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/mycalsi/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/mycalsi/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/mycalsi/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/mycalsi/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/mycalsi/index.html",
+    "main.f4c123f1.css.map": "/mycalsi/static/css/main.f4c123f1.css.map",
+    "main.997d11cf.js.map": "/mycalsi/static/js/main.997d11cf.js.map",
+    "787.ada38732.chunk.js.map": "/mycalsi/static/js/787.ada38732.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4c123f1.css",
+    "static/js/main.997d11cf.js"
+  ]
+}
